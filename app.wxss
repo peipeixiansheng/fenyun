@@ -1,0 +1,62 @@
+/* 导入 字体图标 */
+@import '/libs/font/font.wxss'
+
+/* 抽取的底部播放器 */
+/* 底部的播放器 */
+.play-box {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 120rpx;
+    align-items: center;
+}
+
+.play-box .left {
+    display: flex;
+    align-items: center;
+}
+
+.play-box .left image {
+    width: 100rpx;
+    height: 100rpx;
+    margin: 10rpx;
+    display: block;
+}
+
+.play-box .left text {
+    display: block;
+}
+
+.play-box .left .song {
+    font-size: 32rpx;
+    color: black;
+}
+
+.play-box .left .singer {
+    font-size: 28rpx;
+    color: #666;
+}
+
+.play-box .right {
+    display: flex;
+}
+
+.play-box .right text:first-child {
+    font-size: 40rpx;
+    border: 4rpx solid gray;
+    border-radius: 50%;
+    width: 60rpx;
+    height: 60rpx;
+    text-align: center;
+    line-height: 60rpx;
+}
+
+.play-box .right text {
+    margin-right: 20rpx;
+    font-size: 60rpx;
+    color: gray;
+}
